@@ -1,0 +1,14 @@
+{
+    "name":"tzyganu/Switcher",
+    "type":"magento-module",
+	"licence": "mit",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tzyganu/Switcher"
+        }
+    ],
+	"require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
