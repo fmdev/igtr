@@ -1,0 +1,149 @@
+title:MAGMI by dweeves - version:0.7.18
+startup:Running Magmi Product Import Engine v1.7.1 by dweeves
+startup:Import Profile:default
+startup:Import Mode:create
+step:step:0.5%
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3-Dweeves- 
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Magmi_Optimizer 
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.3-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=On_the_fly_category_creator/importer 
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.25-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Image_attributes_processor 
+plugin;ItemIndexer;pluginhello:On the fly indexer-0.1.5-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=On_the_fly_indexer 
+plugin;ValueTrimItemProcessor;pluginhello:Value Trimmer for select/multiselect-0.0.3-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Value_Trimmer_for_select/multiselect 
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Configurable_Item_processor 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.0.5-Dweeves- 
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - Importing CSV : /Users/zero1niner/repos/italia/magmi-install/var/import/import_v1m.csv using separator [ , ] enclosing [ " ]
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+startup:Performing Datasouce Lookup...
+lookup:25:0.00164890289307
+startup:Found 25 records, took 0.00164890289307 sec
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - No BOM detected, assuming File is UTF8 without BOM...
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - 83 CSV headers columns found
+columns:83
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.0.5 - Newly created items will have default values for columns:store
+startup:Ajusted processed columns:85
+itime:1 - 0.000153064727783 - 0.000153064727783
+dbtime:0 - 0 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+itime:2 - 0.0240111351013 - 0.0235769748688
+dbtime:36 - 0.0127713680267 - 0.0127713680267 - 36
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG61-2TS:
+itime:3 - 0.0382490158081 - 0.014014005661
+dbtime:65 - 0.0194098949432 - 0.0066385269165 - 29
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG61-SBG:
+itime:4 - 0.0514781475067 - 0.0130641460419
+dbtime:92 - 0.0250754356384 - 0.00566554069519 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+itime:5 - 0.0672669410706 - 0.0156199932098
+dbtime:125 - 0.0324482917786 - 0.00737285614014 - 33
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG-BLSP:
+itime:6 - 0.0814380645752 - 0.0139648914337
+dbtime:154 - 0.0389711856842 - 0.00652289390564 - 29
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG-RDSP:
+itime:7 - 0.0937809944153 - 0.012090921402
+dbtime:181 - 0.0442726612091 - 0.0053014755249 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG-GDSP:
+itime:8 - 0.106042146683 - 0.0120329856873
+dbtime:208 - 0.0495252609253 - 0.00525259971619 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRG-BKSP:
+itime:9 - 0.117388963699 - 0.0111339092255
+dbtime:235 - 0.0543932914734 - 0.0048680305481 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+itime:10 - 0.130517959595 - 0.0128920078278
+dbtime:268 - 0.0605475902557 - 0.00615429878235 - 33
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRGS-RBL:
+itime:11 - 0.144785165787 - 0.0140340328217
+dbtime:297 - 0.0668246746063 - 0.00627708435059 - 29
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRGS-RRD:
+itime:12 - 0.157787084579 - 0.012757062912
+dbtime:324 - 0.0723028182983 - 0.00547814369202 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRGS-RBK:
+itime:13 - 0.169834136963 - 0.0117840766907
+dbtime:351 - 0.0773451328278 - 0.00504231452942 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+warning:Invalid category ids found for sku MRGS-RYL:
+itime:14 - 0.182708978653 - 0.0126969814301
+dbtime:378 - 0.0826737880707 - 0.00532865524292 - 27
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+itime:15 - 0.196154117584 - 0.0131621360779
+dbtime:411 - 0.0888702869415 - 0.00619649887085 - 33
+error:No sku info found for record #15
+itime:16 - 0.196797132492 - 0.000409126281738
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #16
+itime:17 - 0.197391033173 - 0.000385046005249
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #17
+itime:18 - 0.197961091995 - 0.000352144241333
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #18
+itime:19 - 0.198447942734 - 0.000340938568115
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #19
+itime:20 - 0.198948144913 - 0.000313997268677
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #20
+itime:21 - 0.199437141418 - 0.000349998474121
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #21
+itime:22 - 0.199895143509 - 0.00033712387085
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #22
+itime:23 - 0.200320005417 - 0.000310897827148
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #23
+itime:24 - 0.200807094574 - 0.000344038009644
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #24
+itime:25 - 0.201295137405 - 0.000334024429321
+dbtime:411 - 0.0888702869415 - 0 - 0
+error:No sku info found for record #25
+itime:25 - 0.202022075653 - 0.000613927841187
+dbtime:412 - 0.0890913009644 - 0.000221014022827 - 1
+info:Skus imported OK:14/25
+warning:Skus imported KO:11/25
+end:Import Ended
